@@ -1,0 +1,25 @@
+package capaNegocio;
+
+import java.util.ArrayList;
+
+public class Proveedor extends Persona{
+ private String ruc;
+private String servicio;
+public ArrayList<Pagos> pertenece = new ArrayList(); 
+public void lepertenecenlos(Pagos Pagos){
+pertenece.add(Pagos);
+}
+
+public String getRuc(){
+return ruc;
+}
+public void setRuc(String ruc){
+this.ruc = ruc;
+} 
+ public String getServicio(){
+return servicio;
+}
+public void setServicio(String servicio){
+this.servicio = servicio;
+}  
+}
