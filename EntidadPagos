@@ -1,0 +1,39 @@
+package capaNegocio;
+
+import java.util.ArrayList;
+
+public class Pagos {
+ private String codigo;
+private String fecha;
+private String monto;
+private String detalle;
+
+public ArrayList<Proveedor> perteneceal = new ArrayList();  
+public void pertenecea(Proveedor Proveedor){
+perteneceal.add(Proveedor);
+}
+public String getCodigo(){
+return codigo;
+}
+public void setCodigo(String codigo){
+this.codigo=codigo;
+}
+public String getFecha(){
+return fecha;
+}
+public void setFecha(String fecha){
+this.fecha=fecha;
+} 
+public String getMonto(){
+return monto;
+}
+public void setMonto(String monto){
+this.monto=monto;
+} 
+public String getDetalle(){
+return detalle;
+}
+public void setDetalle(String detalle){
+this.detalle=detalle;
+}    
+}
