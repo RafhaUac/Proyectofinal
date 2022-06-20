@@ -1,0 +1,34 @@
+package capaNegocio;
+
+import java.util.ArrayList;
+
+public class Reserva {
+ private String codigo;
+private String fechaHora;
+private String cantidad;
+public ArrayList<PaqueteTur> contiene = new ArrayList(); 
+public void contieneun(PaqueteTur PaqueteTur){
+contiene.add(PaqueteTur);
+}
+public ArrayList<Cliente> esreservado = new ArrayList(); 
+public void reservadoporun(Cliente Cliente){
+esreservado.add(Cliente);
+}
+public String getCodigo(){
+return codigo;
+}
+public void setCodigo (String codigo){
+this.codigo=codigo;
+} public String getFechaHora(){
+return fechaHora;
+}
+public void setFechaHora (String fechaHora){
+this.fechaHora=fechaHora;
+} 
+public String getCantidad(){
+return cantidad;
+}
+public void setCanatidad (String cantidad){
+this.cantidad=cantidad;
+} 
+}
