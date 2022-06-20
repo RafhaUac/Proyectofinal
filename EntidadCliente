@@ -1,0 +1,36 @@
+package capaNegocio;
+
+import java.util.ArrayList;
+
+public class Cliente extends Persona{
+ private String codigo;
+private String cantidad;
+private String nacionalidad;
+public ArrayList<Trabajador> verificado = new ArrayList();  
+public void verificadopor(Trabajador Trabajador){
+verificado.add(Trabajador);
+}
+public ArrayList <Reserva> realizauna = new ArrayList();
+public void realiza(Reserva Reserva){
+realizauna.add(Reserva);
+}
+
+public String getCodigo(){
+return codigo;
+}
+public void setCodigo(String codigo){
+this.codigo = codigo;
+}
+public String getCantidad(){
+return cantidad;
+}
+public void setCantidad(String cantidad){
+this.cantidad = cantidad;
+}
+public String getNacionalidad(){
+return nacionalidad;
+}
+public void setNacionalidad(String nacionalidad){
+this.nacionalidad = nacionalidad;
+}   
+}
