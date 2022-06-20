@@ -1,0 +1,61 @@
+package capaNegocio;
+
+public class PaqueteTur {
+ private String codigo;
+private String fecInicio;
+private String fecFin;
+private String lugar;
+private String movilidad;
+private String alojamiento;
+private String nombre;
+public Reserva incluye;
+
+public String getCodigo(){
+return codigo;
+}  
+public void setCodigo(String codigo){
+this.codigo=codigo;
+}
+
+public String getFecInicio(){
+return fecInicio;
+}  
+public void setFecInicio(String fecInicio){
+this.fecInicio=fecInicio;
+}
+
+public String getFecFin(){
+return fecFin;
+}  
+public void setFecFin(String fecFin){
+this.fecFin=fecFin;
+}
+
+public String getLugar(){
+return lugar;
+}  
+public void setLugar(String lugar){
+this.lugar=lugar;
+}
+
+public String getMovilidad(){
+return movilidad;
+}  
+public void setMovilidad(String movilidad){
+this.movilidad=movilidad;
+}
+
+public String getAlojamiento(){
+return alojamiento;
+}  
+public void setAlojamiento(String alojamiento){
+this.alojamiento=alojamiento;
+}
+
+public String getNombre(){
+return nombre;
+}  
+public void setNombre(String nombre){
+this.nombre=nombre;
+}
+}
